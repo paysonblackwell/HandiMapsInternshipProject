@@ -1,6 +1,81 @@
 <resources>
     <string name="app_name">HandiMaps InternshipProject</string>
     <string name="title_activity_maps">Map</string>
-    <string name="Introduction">Hello HandiMaps, my name is Payson Blackwell and I am a Software Developer who is interested to learn and be helpful to the team!
+
+    <!--Main Activity-->
+    <string name="Introduction">
+        Hello HandiMaps, my name is Payson Blackwell and I am a Software Developer who is interested to learn and be helpful to the team!
     </string>
+
+
+    <!--Tabbed Activity-->
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="tab_text_1">Early Life</string>
+    <string name="tab_text_2">School</string>
+    <string name="tab_text_3">Interests</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="section_text_1">
+        \t    I grew up in Northern California, in a town near Sacramento, until the age of 10. It was a small town where a lot of people knew each other and I still have family there that I visit.\n\n
+
+        \t    When I moved to Kirkland, it took some time getting used to the weather of the Pacific Northwest, but now I have come to enjoy the rain.
+                About 10 years later, I am now 21 years old, and really appreciating all the different possibilities that are around this area.
+    </string>
+    <string name="section_text_2">
+        \t    A major part of my MiddleSchool and part of my HighSchool, was playing in band. It was always felt like a treat during my day to play my Trombone and work together as a band to create great sounding music.
+                That was the first time I realized how fun it was to take a set of tools and create something I am proud of with it.\n\n
+
+        \t    During my Junior year of High School, I decided to take advantage of a school program called Running Start, which allowed me to take college classes at the same time as my regular classes.
+                I had never done any sort of coding before, but heard that it was mostly problem solving. I decided to try it out and instantly took a liking to it.
+                After a year in the program, I started a part time job being a Peer Tutor and helping software development students to debug their homework, go over concepts, and more.\n\n
+
+        \t    I am currently still taking classes at LWTech and am a part of the first cohort of the school\'s Bachelor\'s Degree for Software Development. It has been very helpful and taught me more than I thought it would.
+    </string>
+    <string name="section_text_3">
+        \t    There are many things that I like to do in my free time, Here is a list of some of them. \n\n
+                \u2022 Reading\n
+                \u2022 Playing Video Games \u0026 Board Games\n
+                \u2022 Walking my Dog\n
+                \u2022 Taking Tutorials/Learning\n
+                \u2022 Listening to AudioBooks \u0026 Podcasts\n
+    </string>
+
+    <!--Coding Activity-->
+    <string name="coding_text">
+        \t    I have now been coding for about 5 years and have messed with a bunch of different stuff. I have worked in C++, Java, C#, Python, and I\'ve dabbled in a few others.
+                I think I enjoy writing in Java and C# the most, and really enjoy working on projects where I can see my work being used. \n\n
+
+        \t    My first major project was a C# game in Unity, in which I was the only developer on a 3 person team. I took the sprite artwork of the other two people and was able to follow tutorials online
+                to teach myself how to use Unity. It was first time to easily show others what I could do and it was really satisfying to learn and see it take shape.
+
+        \t    Since I have been in school for my entire Software Development Career so far, I don\'t have any major projects that I have done in my spare time.
+                My next personal project is to learn more about machine learning and create something simple but useful with it.
+    </string>
+
+    <!--Future Activity-->
+    <string name="future_text">
+        A lot of time during interviews, the employer asks questions about the applicant\'s career and future, Here is a quick overview of my answers\n\n
+        
+        <b>Why do you want to work here?</b>\n
+        I am interested to try out new things, get better at developing apps and working in a team. I am also excited to be able to help others with the goal of HandiMaps.
+        \n\n
+
+        <b>Where do you see yourself in 5 years?</b>\n
+        I am honestly not quite sure. There are a lot of different opportunities around this area and I haven\'t tried out all the different pathways that programming allows.
+        \n\n
+
+        <b>What is your dream job?</b>\n
+        It would have to be one where I feel useful and constantly learn new things during my workday. I do have a soft spot for trying out game development,
+                so I might try that out one day and see how it would feel as my full time job.
+        \n\n
+        <b>What is your biggest weakness?</b>\n
+        I am not usually a fan of this question, but it is a useful one. For me, it is probably my lack of experience in a proper software development job. At least the part time tutoring I do help me to stay sharp on most subjects in programming
+    </string>
+
+    <!--Maps Activity-->
+    <string name="explain_text">
+        As part of me taking the time to make this app, I deceived to learn something new. Here is the result of me trying out a fragment for this first time, and working with the Google Maps Api
+    </string>
+
 </resources>

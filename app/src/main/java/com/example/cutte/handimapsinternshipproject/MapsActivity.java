@@ -19,6 +19,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    /**
+        I first tried to put a Google Maps fragment into an empty activity and kept getting errors, even when following the official Android documentation and its examples,
+        I then tried to do it with the default Google Maps activity page and got it to work. If I had more time I would go back and try again to build the Maps Activity from scratch
+     */
+
+
     private GoogleMap mMap;
     Intent intent;
 
@@ -31,7 +37,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        //Get text from parent and display it
+        //Get text from parent and display it (Did this to refresh on how to get a message from an intent)
         TextView textView = findViewById(R.id.textView);
         intent = getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
@@ -39,6 +45,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+
+    /**
+     --------------------------------------------------
+     This function is the one I mostly messed with
+     --------------------------------------------------
+     */
     //This is automatically called when the Map Fragment is being created
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -64,7 +76,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     //Testing Intents and coming back from an activity
     public void goBack(View v)
     {
-
         intent.putExtra(MainActivity.EXTRA_MESSAGE,"Hello From the other Side");
         setResult(RESULT_OK, intent);
         finish();
